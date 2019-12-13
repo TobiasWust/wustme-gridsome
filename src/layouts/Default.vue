@@ -5,11 +5,18 @@
         <g-link to="/">Wust.me</g-link>
       </strong>
       <nav class="nav">
-        <g-link class="nav__link" to="/uber-mich/">About</g-link>
-        <g-link class="nav__link" to="/impressum/">Impressum</g-link>
+        <g-link class="nav__link" to="/uber-mich/">Über Mich</g-link>
+        <g-link
+          class="nav__link"
+          to="/lade-mich-auf-einen-kaffee-ein/"
+        >Lade mich auf einen Kaffee ein</g-link>
       </nav>
     </header>
     <slot />
+    <nav class="nav">
+      <g-link class="nav__link" to="/impressum/">Impressum</g-link>
+      <g-link class="nav__link" to="/datenschutz/">Datenschutz</g-link>
+    </nav>
   </div>
 </template>
 
