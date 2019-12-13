@@ -2,20 +2,21 @@
   <div class="layout">
     <header class="header">
       <strong>
-        <g-link to="/">Gridsome</g-link>
+        <g-link to="/">Wust.me</g-link>
       </strong>
       <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
+        <g-link class="nav__link" to="/uber-mich/">About</g-link>
+        <g-link class="nav__link" to="/impressum/">Impressum</g-link>
       </nav>
     </header>
-    <slot/>
+    <slot />
   </div>
 </template>
 
 <style>
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 img {
@@ -27,7 +28,7 @@ nav[role="navigation"] {
 }
 nav[role="navigation"] a {
   display: inline-block;
-  margin: 1.0em 0.75em 2.0em;
+  margin: 1em 0.75em 2em;
 }
 
 .layout {
